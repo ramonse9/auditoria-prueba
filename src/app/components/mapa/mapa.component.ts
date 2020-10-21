@@ -94,10 +94,8 @@ export class MapaComponent implements OnInit {
   
 ];
 
-  tsk: number ;
-
+  tsk: number;
   public lineChartLabels: Label[] = ['Cultura', 'Gente', 'Operacion', 'Clientes', 'Desempeño', 'Normatividad', 'Licencias'];
-
 
   public lineChartData1 =
   [    
