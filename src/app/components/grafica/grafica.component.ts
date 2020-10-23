@@ -56,7 +56,7 @@ export class GraficaComponent implements OnInit {
 
   public lineChartData5 =
   [    
-    { data: [ 23, 19, 15, 15, 14, 7, 5], label: '85% TSK Humaya' },
+    { data: [ 23, 19, 15, 15, 14, 7, 5], label: '85% TSK Zapata' },
     { data: [ 25, 20, 15, 15, 15, 10, 5], label: 'Objetivo' }
   ];
 

@@ -1,0 +1,49 @@
+
+
+<div class="row">
+    <div class="col-4">
+        <div id="mapa2">
+            <app-mapa></app-mapa>
+        </div>
+        <app-lista (cambioTsk)="tsk = $event"></app-lista>
+    
+    </div>
+    <div class="col-8">
+        <div class="row">
+            <div class="col-8">
+                <app-nav-tiendas></app-nav-tiendas>
+            </div>
+            <div class="col-4 texto-centrado">
+                <app-usuario-infomacion></app-usuario-infomacion>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <app-tarjetas (cambioTsk)="tsk = $event"></app-tarjetas>
+            </div>
+        </div>
+    </div>   
+</div>
+
+<div class="row">
+    <div class="col-4">
+        <app-grafica [tsk]="tsk"></app-grafica>
+    </div>
+    <div class="col-8">
+        <app-tienda-detalle></app-tienda-detalle>
+    </div>
+</div>
+
+
+ 
+
+
+
+<!--
+<div id='tarjetas' class="container">
+
+    <div class="">
+        
+    </div>    
+</div>
+-->
